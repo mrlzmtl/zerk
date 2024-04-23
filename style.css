@@ -151,7 +151,7 @@ h2 {
     padding-bottom: 20px;
     margin-bottom: 20px;
 
-    border-radius: 5px;
+    border-radius: 20px;
 
     box-shadow: 0px 5px 35px 0px rgba(242, 242, 242, 0.25);
 }
@@ -160,8 +160,8 @@ h2 {
     height: 60%;
     width: 100%;
 
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
 }
 
 .card p {
@@ -173,4 +173,242 @@ h2 {
     padding: 7%;
 
     color: var(--branco-zerk);
+}
+
+.card button {
+    width: 90%;
+    height: 50px;
+
+    background-color: var(--verde-zerk);
+
+    border: none;
+    border-radius: 5px;
+
+    color: var(--preto-zerk);
+
+    font-family: 'Orbitron';
+    font-size: 24px;
+
+    cursor: pointer;
+
+    transition: box-shadow 500ms ease;
+}
+
+.card button:hover {
+    box-shadow: inset 0px 5px 15px 0px rgba(9,9,9,0.55);
+}
+
+#portfolio {
+    height: 200px;
+    margin-bottom: 120px;
+
+    background-image: url(img/hipermercado.jpg);
+    background-size: contain;
+
+    background-repeat: no-repeat;
+
+    /* background-attachment: fixed; */
+
+    position: relative;
+}
+
+.filtro {
+    height: 100%;
+    width: 100%;
+
+    background-color: rgba(112, 135, 127, 0.7);
+
+    position: absolute;
+    top: 0;
+
+    transition: box-shadow 500ms ease;
+}
+
+#portfolio .container-grid {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#portfolio a {
+    width: fit-content;
+
+    font-family: 'Orbitron';
+    font-size: 64px;
+    font-weight: bold;
+
+    color: var(--preto-zerk);
+
+    z-index: 0;
+}
+
+#portfolio .filtro:hover {
+    box-shadow: inset 0px 15px 25px 0px rgba(9,9,9,0.55);
+}
+
+#contato {
+    text-align: center;
+
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+
+#contato h2 {
+    margin-bottom: 20px;
+}
+
+#contato p {
+    font-family: 'Nunito Sans';
+    font-size: 18px;
+
+    color: var(--branco-zerk);
+
+    margin-bottom: 50px;
+}
+
+#contato form {
+    width: 50%;
+
+    margin: 0 auto;
+    padding: 60px 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: var(--branco-zerk);
+    font-family: 'Nunito Sans';
+}
+
+#contato form label {
+    margin-bottom: 15px;
+    font-size: 17px;
+}
+
+.campo {
+    width: 60%;
+
+    margin-bottom: 50px;
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.campo input {
+    height: 50px;
+
+    color: var(--preto-zerk);
+    background-color: var(--branco-zerk);
+
+    border: none;
+    border-radius: 5px;
+
+    outline: 2px solid rgba(242, 242, 242, 0.5);
+
+    text-indent: 10px;
+
+    font-family: 'Nunito Sans';
+    font-size: 18px;
+}
+
+.campo-textarea {
+    width: 60%;
+
+    margin-bottom: 30px;
+
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.campo-textarea textarea {
+    color: var(--preto-zerk);
+    background-color: var(--branco-zerk);
+
+    border: none;
+    border-radius: 5px;
+
+    padding: 10px;
+
+    font-family: 'Nunito Sans';
+    font-size: 18px;    
+
+    outline: 2px solid rgba(242, 242, 242, 0.5);
+
+    resize: none;
+}
+
+.campo input:focus, .campo-textarea textarea:focus {
+    outline: 2px solid var(--laranja-zerk);
+}
+
+#contato form button {
+    height: 50px;
+    width: 40%;
+
+    font-family: 'Orbitron';
+    font-size: 28px;
+
+    color: var(--preto-zerk);
+    background-color: var(--verde-zerk);
+
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    transition: box-shadow 500ms ease;
+}
+
+#contato form button:hover {
+    box-shadow: inset 0px 5px 15px 0px rgba(9,9,9,0.55);
+}
+
+#contato form input::placeholder, 
+#contato form textarea::placeholder {
+    color: rgba(9,9,9,0.35);
+}
+
+footer {
+    height: 300px;
+}
+
+footer .container-grid {
+    height: 90%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes-sociais {
+    height: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icones-redes {
+    width: 450px;
+    
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.icones-redes a img {
+    width: 100px;
+}
+
+footer .logo img {
+    width: 100px;
 }
