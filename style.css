@@ -682,9 +682,24 @@ footer .logo img {
 }
 
 @media screen and (max-width: 400px) {
+    header div.container-grid {
+        height: fit-content;
+        padding: 10px;
+    }
+
+    header img {
+        width: 50px;
+    }
+
+    header button {
+        width: 40px;
+        margin-right: unset;
+    }
+
     .redes-sociais {
         height: fit-content;
     }
+
     .icones-redes {
         width: 25px;
 
