@@ -587,12 +587,6 @@ footer .logo img {
         background-size: cover;
     }
 
-    nav.menu {
-        width: 100%;
-
-        display: none;
-    }
-
     #sobre {
         padding-left: 0px;
         padding-right: 0px;
