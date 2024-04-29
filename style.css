@@ -206,12 +206,12 @@ h2 {
     height: 200px;
     margin-bottom: 120px;
 
-    background-image: url(img/hipermercado.jpg);
-    background-size: contain;
+    background-image: url(img/cenário.jpg);
+    background-size: 100%;
 
     background-repeat: no-repeat;
 
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
 
     position: relative;
 }
@@ -249,8 +249,8 @@ h2 {
     z-index: 0;
 }
 
-#portfolio .filtro:hover {
-    box-shadow: inset 0px 15px 25px 0px rgba(9,9,9,0.55);
+#portfolio a:hover {
+    transform: scale(1.05);
 }
 
 #contato {
