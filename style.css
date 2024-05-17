@@ -448,6 +448,14 @@ footer .logo img {
     box-shadow: inset 0px 5px 15px 0px rgba(9,9,9,0.55);
 }
 
+.menu-fechado {
+    display: none;
+}
+
+#icone-barras{
+    display: none;
+}
+
 @media screen and (max-width: 1300px) {
     header {
         position: relative;
@@ -482,6 +490,7 @@ footer .logo img {
         position: absolute;
         top: 165px;
         right: 0px;
+        z-index: 1;
     }
 
     nav.menu a {
