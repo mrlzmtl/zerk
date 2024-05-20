@@ -2,22 +2,22 @@
   "cases": [
     {
       "imagem": "https://unsplash.it/600/400?image=37",
-      "descricao": "Uma empresa de tecnologia lança um desafio de gamificação onde os funcionários devem propor e implementar ideias inovadoras.",
+      "descricao": "Uma pizzaria promove uma gamificação para treinar seus novos funcionários.",
       "id": "061a"
     },
     {
       "imagem": "https://unsplash.it/600/400?image=24",
-      "descricao": "Uma empresa de consultoria cria uma narrativa interativa de gamificação para seu programa de treinamneto",
+      "descricao": "Uma empresa de RH promove uma gamificação de perguntas e respostas para a conclusão de seus cursos.",
       "id": "8f0f"
     },
     {
       "imagem": "https://unsplash.it/600/400?image=81",
-      "descricao": "Uma empresa de vendas implementa uma competição gamificada entre equipes que competem pelo topo do ranking",
+      "descricao": "Uma empresa de documentação promove uma gamificação para melhorar o trabalho para seus arquivistas.",
       "id": "1cfa"
     },
     {
       "imagem": "https://unsplash.it/600/400?image=58",
-      "descricao": "Uma empresa de saúde promove o bem-estar dos funcionários através de um desafio de gamificação de condicionamento físico",
+      "descricao": "Um hipermercado promove uma gamificação para facilitar o trabalho de seus funcionários.",
       "id": "85dd"
     }
   ],
